@@ -20,7 +20,7 @@ package top.leoly.leetcode.array_zero_move;
  */
 public class Solution {
     public static void main(String[] args) {
-        int[] nums = new int[]{0,1,0,3,12};
+        int[] nums = new int[]{0, 1, 0, 3, 12};
         new Solution().moveZeroes(nums);
         for (int num : nums) {
             System.out.printf(num + " ");
@@ -32,14 +32,14 @@ public class Solution {
         int index = 0;
         int zeroIndex = 0;
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] != 0){
+            if (nums[i] != 0) {
                 nums[index++] = nums[i];
-            }else{
+            } else {
                 zeroIndex++;
             }
         }
 
-        for (int i = 0; i < zeroIndex; i++){
+        for (int i = 0; i < zeroIndex; i++) {
             nums[index++] = 0;
         }
     }
