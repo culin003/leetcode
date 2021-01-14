@@ -19,3 +19,9 @@ learning leetcode day by day.
 
     输入：[1,6,8,7,3]
     输出：[1,3,6,7,8]
+## 3、字符串处理
+
+示例：
+    
+    输入：absldfjk
+    输出：absld
